@@ -29,5 +29,14 @@ floatData = float('2.3')
 # a  != b--> distict two vars
 # a  > b--> min two vars
 
+""" Show data with special """
+f'{ "Holas" * 3}'
 
+for i in range(11):
+    x += 0.1
+
+if x == 1.0:
+    print(f'x = {x}')
+else:
+    print(f'x != {x}')
 
