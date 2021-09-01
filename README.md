@@ -3,6 +3,7 @@
 # Table of Contents
 
 1. [List](#List)
+2. [Dict](#Dict)
 3. [venv - virtual environment](#venv)
 
 # List
@@ -13,9 +14,28 @@
 
 `[element for element in iterable if condition]` 
 
-<code>
+### Example
+
+``` python
 squares = [ i**2 for i in range(1 , 10) if i % 3 != 0]  # [9 , 36 , 81] 
-</code>
+```
+
+#Dict
+
+## Dict comprehensions
+
+### Sintax
+
+`{ key : value for value in iterable if condition}` 
+
+### Example
+
+``` python
+squares = { i : i**3 for i in range(1 , 10) if i % 3 != 0 } ## { 3: 9 , 6: 38 , 9 : 81 } 
+
+```
+
+---
 
 
 # venv
