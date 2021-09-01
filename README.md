@@ -20,7 +20,7 @@
 squares = [ i**2 for i in range(1 , 10) if i % 3 != 0]  # [9 , 36 , 81] 
 ```
 
-#Dict
+# Dict
 
 ## Dict comprehensions
 
