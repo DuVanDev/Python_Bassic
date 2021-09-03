@@ -2,14 +2,15 @@
 
 # Table of Contents
 
-1. [List](#List)
-2. [Dict](#Dict)
-3. [Functions](#Functions)
+1. [list](#list)
+2. [Dict](#dict)
+3. [Functions](#functions)
 4. [venv - virtual environment](#venv)
+5. [Errors](#errors)
 
 ---
 
-# List
+# list
 
 ## List comprehensions
 
@@ -24,7 +25,7 @@ squares = [ i**2 for i in range(1 , 10) if i % 3 != 0]  # [9 , 36 , 81]
 ```
 ---
 
-# Dict
+# dict
 
 ## Dict comprehensions
 
@@ -41,13 +42,13 @@ squares = { i : i**3 for i in range(1 , 10) if i % 3 != 0 } ## { 3: 9 , 6: 38 , 
 
 ---
 
-# Functions
+# functions
 
 ## Lambda Functions
 
 Anonim functions that not required name
 
-> lambda functions only have one argument and only have one code line.
+> lambda functions  only have one code line.
 
 ### Syntax
 
@@ -88,12 +89,40 @@ greeting(sayBye) # 'Bye'
 
 ### filter
 
+```python
+my_list = [1,2,3,4]
+
+odd = list(filter(lambda x: x % 2 != 0 , my_list))
+
+print(odd) ## [1,3]
+
+```
 
 ### map
 
+```python
 
+my_list = [1,2,3,4]
+
+odd = list(map(lambda x: x**2 , my_list))
+
+print(odd) ## [2, 4 , 9 , 16]
+
+```
 
 ### reduce
+
+```python
+
+from functools import reduce
+
+my_list = [ 2, 2, 2]
+
+all_multiply = reduce(lambda a , b : a * b, my_list)
+
+print(all_multiply) ## 2
+
+```
 
 # venv
 
@@ -116,3 +145,5 @@ this command help to creat and update our `requirement.txt` file
 ### Install dependecies inside requirements.txt
 
 `pip install -r requirements.txt`
+
+# errors
