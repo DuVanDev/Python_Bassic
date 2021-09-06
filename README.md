@@ -171,4 +171,27 @@ except TypeError:
 
 ```
 
+### raise
+
+Create custome execption error that help code correct runtime code.
+
+```python
+
+try: 
+  if len(value) == 0:
+    raise ValueError('No is value required')
+  # code here
+except ValueError as ve:
+  print(ve)
+  # handle except error
+```
+
+### finally
+
+this handle, help to run code inside **finally** if error exit or not.
+
+```
+```
+
+
 
