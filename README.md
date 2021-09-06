@@ -190,7 +190,15 @@ except ValueError as ve:
 
 this handle, help to run code inside **finally** if error exit or not.
 
-```
+```python
+
+try: 
+  #code here
+except:
+
+finally: 
+  # code finally here
+
 ```
 
 
