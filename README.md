@@ -201,5 +201,17 @@ finally:
 
 ```
 
+### Assert statements
+
+Assert are affirmations that help catch error.
+
+```python
+
+def name_function(string):
+  assert len(string) > 0, "Can't get into empty string" # AssertionError: Can't get into empty string
+
+```
+
+
 
 
