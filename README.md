@@ -7,6 +7,7 @@
 3. [Functions](#functions)
 4. [venv - virtual environment](#venv)
 5. [Errors](#errors)
+6. [Files](#files)
 
 ---
 
@@ -212,6 +213,28 @@ def name_function(string):
 
 ```
 
+# files
 
+## modes
 
+- R (read)
+- W (write)
+- A (append)
 
+### Read
+```python
+with open("[file route]" , "r" , encoding="utf-8") as f:
+  # code to work with file
+```
+
+### Write
+```python
+with open("[file route]" , "w" , encoding="utf-8") as f: 
+  # code to work with file
+```
+
+### Append
+```python
+with open("[file route]" , "a" , encoding="utf-8") as f: 
+  # code to work with file
+```
