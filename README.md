@@ -147,3 +147,28 @@ this command help to creat and update our `requirement.txt` file
 `pip install -r requirements.txt`
 
 # errors
+
+## type errors
+
+### SyntaxError
+
+This error stop all code and not execute line code.
+
+### Exception
+
+This error stop the code only when find one exception error.
+
+## Handler Errors
+
+### try - except
+
+```python
+
+try: 
+  # code here
+except TypeError:
+  # handle except error
+
+```
+
+
