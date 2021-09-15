@@ -28,6 +28,40 @@ squares = [ i**2 for i in range(1 , 10) if i % 3 != 0]  # [9 , 36 , 81]
 
 # dict
 
+## Get
+
+we have two forms to get dict data
+
+### Method Get
+
+this method allow add defined if data not exist inside dict
+
+``` python
+my_dict = { 
+    'David' : 25,
+    'Juan'  : 20
+}
+
+my_dict.get('Leo') ##
+my_dict.get('Marko' , 0) ## 0
+my_dict.get('David') ## 25 
+
+```
+
+### Call key
+
+``` python
+my_dict = { 
+    'David' : 25,
+    'Juan'  : 20
+}
+
+my_dict['Leo'] ## Error KeyError 
+my_dict['Marko'] ## Error KeyError
+my_dict['David'] ## 25 
+
+```
+
 ## Dict comprehensions
 
 ### Sintax
