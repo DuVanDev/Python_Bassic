@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-1. [list](#list)
+1. [List](#list)
 2. [Dict](#dict)
 3. [Functions](#functions)
 4. [venv - virtual environment](#venv)
@@ -12,6 +12,8 @@
 ---
 
 # list
+
+1. [List Comprehensions](##list_comprehensions)
 
 ## List comprehensions
 
