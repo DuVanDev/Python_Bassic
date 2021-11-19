@@ -14,6 +14,7 @@
 # list
 
 1. [List Comprehensions](#list-comprehensions)
+1. [Time Complexity](#time-complexity-list)
 
 ## List comprehensions
 
@@ -26,8 +27,28 @@
 ``` python
 squares = [ i**2 for i in range(1 , 10) if i % 3 != 0]  # [9 , 36 , 81] 
 ```
----
 
+## Time Complexity List
+
+### Lookup
+
+1. Lookup by index => __O(1)__
+2. Lookup by value => __O(n)__
+
+### insert element
+
+#### Insert at index 1
+__O(n)__
+
+because when we insert one element at index 1, all others values need change your memory address 
+
+### delete element
+
+__O(n)__
+
+because when we delete one element, all others values need change your memory address
+
+---
 # dict
 
 ## Get
