@@ -13,7 +13,7 @@
 
 # list
 
-1. [List Comprehensions](##list_comprehensions)
+1. [List Comprehensions](## list-comprehensions)
 
 ## List comprehensions
 
